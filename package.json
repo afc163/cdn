@@ -1,0 +1,35 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "description": "Upload your files to upyun cdn.",
+  "main": "./lib/index.js",
+  "bin": {
+    "cdn": "./bin/cdn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afc163/cdn.git"
+  },
+  "keywords": [
+    "cdn",
+    "upload"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "afc163 <afc163@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cliparoo": "^1.0.0",
+    "colorful": "^2.1.0",
+    "commander": "~2.2.0",
+    "download": "^0.1.18",
+    "imageinfo": "^1.0.4",
+    "shelljs": "^0.3.0",
+    "tempfile": "^0.1.3",
+    "uglify-js": "^2.4.14",
+    "upyun": "0.0.3"
+  }
+}

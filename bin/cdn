@@ -1,0 +1,35 @@
+#!/usr/bin/env node
+
+var path = require('path'),
+    fs = require('fs'),
+    program = require('commander'),
+    pkg = require('../package.json'),
+    cdn = require('../lib/index');
+
+program
+    .version(pkg.version)
+    .usage('[file|url]')
+    .parse(process.argv);
+
+program.on('--help', function() {
+  console.log('  Examples:'.cyan);
+  console.log();
+  console.log('   $'.green + ' cdn example.png');
+  console.log('   $'.green + ' cdn ../example.png');
+  console.log('   $'.green + ' cdn ~/Desktop/example.png');
+  console.log('   $'.green + ' cdn *.jpg');
+  console.log('   $'.green + ' cdn https://npmjs.org/static/img/npm.png');
+  console.log();
+});
+
+program.parse(process.argv);
+
+if (!process.argv[2]) {
+  program.help();
+}
+
+var files = process.argv.slice(2);
+cdn(files, function(err) {
+    // force to exit
+    process.exit(err ? 1 : 0);
+});
