@@ -26,7 +26,7 @@ Ready to upload one file:
   index.js @ application/x-javascript 0.71 KB
 Busy in uploading ....
   ➜  http://cdn-upyun.b0.upaiyun.com/1a7a1f11b9d87c5b5e3f55749fb98a88.png ~ cnima.js
-Uploaded one file to Alipay cdn in 0.863s!
+Uploaded one file to cdn in 0.863s!
 ```
 
 就可以访问 http://cdn-upyun.b0.upaiyun.com/1a7a1f11b9d87c5b5e3f55749fb98a88.png 了。
