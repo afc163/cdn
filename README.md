@@ -1,5 +1,7 @@
 # CDN
 
+[![NPM version](https://img.shields.io/npm/v/cdn.svg?style=flat)](https://npmjs.org/package/cdn)
+
 上传静态文件到又拍云服务器上，生成随机的地址返回。目前支持 .png .jpg .jpeg .gif .ico .swf .js .css .zip .pdf .flv .mp4 这些类型的文件。
 
 ![demo](https://i.alipayobjects.com/e/201312/1fOQnfM67D.png)
