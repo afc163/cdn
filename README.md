@@ -4,7 +4,7 @@
 
 上传静态文件到七牛或又拍云服务器上，生成随机的地址返回。目前支持 .png .jpg .jpeg .gif .ico .swf .js .css .zip .pdf .flv .mp4 这些类型的文件。
 
-![demo](https://i.alipayobjects.com/e/201312/1fOQnfM67D.png)
+![demo](http://cdn-qiniu.qiniudn.com/0e751d59490edeb21fe27344f2cde425.png)
 
 ---
 
