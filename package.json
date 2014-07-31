@@ -1,7 +1,7 @@
 {
   "name": "cdn",
-  "version": "1.0.0",
-  "description": "Upload your files to upyun cdn.",
+  "version": "1.1.0",
+  "description": "Upload your files to cdn.",
   "main": "./lib/index.js",
   "bin": {
     "cdn": "./bin/cdn"
@@ -14,6 +14,9 @@
     "cdn",
     "upload"
   ],
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -27,6 +30,7 @@
     "commander": "~2.2.0",
     "download": "^0.1.18",
     "imageinfo": "^1.0.4",
+    "node-qiniu": "^6.1.6",
     "shelljs": "^0.3.0",
     "tempfile": "^0.1.3",
     "uglify-js": "^2.4.14",
