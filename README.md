@@ -31,10 +31,10 @@ $ cdn test.jpg
 ```
 Start checking files.
 Ready to upload one file:
-  index.js @ application/x-javascript 0.71 KB
-Busy in uploading ....
+  spmjs.png @ image/png 7.54 KB 400x400
+Busy in uploading ☕  ...
   ➜  http://cdn-qiniu.qiniudn.com/650bb27d284b3c70ed732d0b4629a0a1.png ~ spmjs.png
-Uploaded one file to Alipay cdn in 0.863s!
+👍  Uploaded one file to QINIU in 0.267s!
 ```
 
 就可以访问 http://cdn-qiniu.qiniudn.com/650bb27d284b3c70ed732d0b4629a0a1.png 了。
