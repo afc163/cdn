@@ -12,7 +12,9 @@
   },
   "keywords": [
     "cdn",
-    "upload"
+    "upload",
+    "qiniu",
+    "upyun"
   ],
   "scripts": {
     "postinstall": "node scripts/postinstall.js"
