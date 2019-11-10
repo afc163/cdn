@@ -30,7 +30,7 @@
     "cliparoo": "^1.0.0",
     "colorful": "^2.1.0",
     "commander": "~2.2.0",
-    "download": "^0.1.18",
+    "download": "^0.2.0",
     "imageinfo": "^1.0.4",
     "node-qiniu": "^6.1.6",
     "shelljs": "^0.3.0",
