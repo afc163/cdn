@@ -29,7 +29,7 @@
     "async": "^0.9.0",
     "cliparoo": "^1.0.0",
     "colorful": "^2.1.0",
-    "commander": "~2.2.0",
+    "commander": "~2.20.0",
     "download": "^0.1.18",
     "imageinfo": "^1.0.4",
     "node-qiniu": "^6.1.6",
